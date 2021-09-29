@@ -26,7 +26,7 @@ def read_results(csv_file_path):
 				out["host"] = rows["target"]
 				out["matched"] = rows["target"]
 				out["info"]["description"] = rows["result"]
-				print(out)
+				print(json.dumps(out))
 
 def main():
 	csv_result = sys.argv[1]
