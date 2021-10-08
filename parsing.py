@@ -9,7 +9,7 @@ def read_results(csv_file_path):
 			"reference":"",
 			"name":"Http/2 Request Smuggling",
 			"author":"none",
-			"severity":"medium",
+			"severity":"info",
 			"description":""
 			},
 		"type":"http",
